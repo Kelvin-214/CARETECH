@@ -1,0 +1,10 @@
+{% autoescape off %}
+
+Hi {{user.first_name}},
+
+YOUR APPOINTMENT HAS BEEN CREATED AND SENT TO {{ appointment.hospital }}
+
+Appointment: {{appointment.hospital}} - {{ appointment.provider }}
+
+
+{% endautoescape %}
